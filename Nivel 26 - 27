@@ -1,0 +1,3 @@
+./bandit27-do bash
+whoami
+cat /etc/bandit_pass/bandit27

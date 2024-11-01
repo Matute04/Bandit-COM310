@@ -1,0 +1,2 @@
+ls -l inhere/
+find . -type f -readable ! -executable -size 1033c

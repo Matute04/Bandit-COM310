@@ -1,0 +1,4 @@
+ls
+ssh -i bandit26.sshkey bandit26@localhost -p 2220
+set shell=/bin/bash
+shell

@@ -1,0 +1,3 @@
+ls 
+./bandit20-do bash -p
+cat /etc/bandit_pass/bandit20

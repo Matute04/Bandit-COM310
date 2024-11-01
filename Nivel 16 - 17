@@ -1,0 +1,7 @@
+nmap --open -T5 -v -n -p31000-32000 localhost
+openssl s_client -connect 127.0.0.1:31790 -quiet
+mktemp -d
+nano id_rsa
+(se copia la llave obtenida)
+chmod 600 id_rsa
+ssh -i id_rsa bandit17@localhost -p 2220

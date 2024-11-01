@@ -1,0 +1,6 @@
+ls 
+./suconnect
+./suconnect 4000
+(en la otra terminal)
+nc -nlvp 4000
+0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO

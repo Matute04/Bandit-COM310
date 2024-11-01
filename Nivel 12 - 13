@@ -1,0 +1,9 @@
+ls
+cat data.txt
+(En otra terminal copiar el contenido de data.txt)
+touch data
+nano data
+xxd -r data > data.hex
+7z x data.hex 
+ls 
+(Repetir proceso)
